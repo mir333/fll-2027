@@ -1,0 +1,9 @@
+{
+  "name": "fll-2027",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Progress page for our FIRST LEGO League 2027 season",
+  "scripts": {
+    "dev": "npx --yes serve public -l 3000"
+  }
+}

@@ -1,0 +1,72 @@
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --text: #1b1f24;
+  --muted: #5b6573;
+  --border: #e2e5ea;
+  --accent: #d01012;   /* LEGO red */
+  --accent-2: #ffcf00; /* LEGO yellow */
+  --done: #00852b;     /* LEGO green */
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111418;
+    --surface: #1a1f25;
+    --text: #e8ebef;
+    --muted: #9aa4b1;
+    --border: #2a313a;
+  }
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.hero {
+  background: var(--accent);
+  color: #fff;
+  padding: 3rem 1rem 2.5rem;
+  text-align: center;
+}
+.eyebrow { margin: 0; text-transform: uppercase; letter-spacing: .08em; font-size: .85rem; opacity: .9; }
+.hero h1 { margin: .25rem 0 1.5rem; font-size: clamp(2rem, 6vw, 3rem); }
+.overall { max-width: 520px; margin: 0 auto; }
+.overall p { margin: .5rem 0 0; }
+.countdown { margin: 1rem 0 0; font-weight: 600; }
+
+.bar { height: 14px; border-radius: 999px; background: rgba(0,0,0,.15); overflow: hidden; }
+.hero .bar { background: rgba(255,255,255,.3); }
+.fill { height: 100%; width: 0; background: var(--done); transition: width .6s ease; }
+.hero .fill { background: var(--accent-2); }
+
+main { max-width: 960px; margin: 0 auto; padding: 2rem 1rem; }
+h2 { margin: 0 0 1rem; }
+section + section { margin-top: 2.5rem; }
+
+.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+.card h3 { margin: 0; display: flex; justify-content: space-between; gap: .5rem; }
+.card h3 span { color: var(--muted); font-weight: 500; font-size: .95rem; }
+.card > p { color: var(--muted); margin: .25rem 0 .75rem; font-size: .95rem; }
+.card ul { list-style: none; padding: 0; margin: 1rem 0 0; }
+.card li { padding: .3rem 0; display: flex; gap: .5rem; }
+.card li::before { content: "○"; color: var(--muted); }
+.card li.done::before { content: "●"; color: var(--done); }
+.card li.done { color: var(--muted); }
+.card li.done span { text-decoration: line-through; }
+
+.log { list-style: none; padding: 0; margin: 0; border-left: 3px solid var(--accent-2); }
+.log li { padding: .25rem 0 .75rem 1rem; }
+.log time { display: block; color: var(--muted); font-size: .85rem; }
+
+footer { text-align: center; color: var(--muted); padding: 2rem 1rem; font-size: .9rem; }

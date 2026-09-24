@@ -1,0 +1,41 @@
+{
+  "team": "Our FLL Team",
+  "season": "FIRST LEGO League 2026/2027",
+  "updated": "2026-09-24",
+  "competitionDate": "2026-12-05",
+  "areas": [
+    {
+      "name": "Robot Game",
+      "description": "Robot design, attachments and mission runs.",
+      "tasks": [
+        { "title": "Base robot built (zaklad)", "done": true },
+        { "title": "Drive straight and turn reliably", "done": false },
+        { "title": "First mission solved", "done": false },
+        { "title": "Full 2:30 run planned", "done": false }
+      ]
+    },
+    {
+      "name": "Innovation Project",
+      "description": "Identify a problem, design a solution, share it.",
+      "tasks": [
+        { "title": "Research the season theme", "done": false },
+        { "title": "Choose a problem", "done": false },
+        { "title": "Build a prototype", "done": false },
+        { "title": "Prepare the presentation", "done": false }
+      ]
+    },
+    {
+      "name": "Core Values",
+      "description": "Teamwork, discovery, inclusion and fun.",
+      "tasks": [
+        { "title": "Team name and logo", "done": false },
+        { "title": "Engineering notebook started", "done": true },
+        { "title": "Share with the community", "done": false }
+      ]
+    }
+  ],
+  "log": [
+    { "date": "2026-09-24", "text": "Progress page is live." },
+    { "date": "2026-05-15", "text": "Built and programmed our base robot in SPIKE Prime." }
+  ]
+}
