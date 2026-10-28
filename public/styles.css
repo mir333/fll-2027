@@ -35,6 +35,15 @@ body {
 }
 .eyebrow { margin: 0; text-transform: uppercase; letter-spacing: .08em; font-size: .85rem; opacity: .9; }
 .hero h1 { margin: .25rem 0 1.5rem; font-size: clamp(2rem, 6vw, 3rem); }
+.hero-photo {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
 .overall { max-width: 520px; margin: 0 auto; }
 .overall p { margin: .5rem 0 0; }
 .countdown { margin: 1rem 0 0; font-weight: 600; }
