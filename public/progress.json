@@ -29,13 +29,14 @@
       "name": "Core Values",
       "description": "Teamwork, discovery, inclusion and fun.",
       "tasks": [
-        { "title": "Team name and logo", "done": false },
+        { "title": "Team name and logo", "done": true },
         { "title": "Engineering notebook started", "done": true },
         { "title": "Share with the community", "done": false }
       ]
     }
   ],
   "log": [
+    { "date": "2026-10-28", "text": "Team name and logo finalized." },
     { "date": "2026-10-28", "text": "Solved Mission 3 \"Flip the Rock\" using a new attachment (add-on) on the robot." },
     { "date": "2026-09-24", "text": "Progress page is live." },
     { "date": "2026-05-15", "text": "Built and programmed our base robot in SPIKE Prime." }
