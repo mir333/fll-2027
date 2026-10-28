@@ -1,7 +1,7 @@
 {
   "team": "Our FLL Team",
   "season": "FIRST LEGO League 2026/2027",
-  "updated": "2026-09-24",
+  "updated": "2026-10-28",
   "competitionDate": "2026-12-05",
   "areas": [
     {
@@ -10,7 +10,8 @@
       "tasks": [
         { "title": "Base robot built (zaklad)", "done": true },
         { "title": "Drive straight and turn reliably", "done": false },
-        { "title": "First mission solved", "done": false },
+        { "title": "First mission solved", "done": true },
+        { "title": "Mission 3 \"Flip the Rock\" solved with a new attachment (add-on)", "done": true },
         { "title": "Full 2:30 run planned", "done": false }
       ]
     },
@@ -35,6 +36,7 @@
     }
   ],
   "log": [
+    { "date": "2026-10-28", "text": "Solved Mission 3 \"Flip the Rock\" using a new attachment (add-on) on the robot." },
     { "date": "2026-09-24", "text": "Progress page is live." },
     { "date": "2026-05-15", "text": "Built and programmed our base robot in SPIKE Prime." }
   ]
