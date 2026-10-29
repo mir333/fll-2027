@@ -74,7 +74,7 @@ section + section { margin-top: 2.5rem; }
 .card li.done { color: var(--muted); }
 .card li.done span { text-decoration: line-through; }
 
-.gallery { display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, minmax(160px, 220px)); justify-content: start; }
+.gallery { display: grid; gap: .75rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
 .gallery figure { margin: 0; }
 .gallery img {
   display: block;
