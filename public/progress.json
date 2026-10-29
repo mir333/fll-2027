@@ -1,47 +1,47 @@
 {
-  "team": "Náš FLL tým",
+  "team": "Our FLL Team",
   "season": "FIRST LEGO League 2026/2027",
   "updated": "2026-10-29",
   "competitionDate": "2026-12-05",
   "areas": [
     {
-      "name": "Robotická hra",
-      "description": "Návrh robota, nástavce a plnění misí.",
+      "name": "Robot Game",
+      "description": "Robot design, attachments and mission runs.",
       "tasks": [
-        { "title": "Základní robot postaven (základ)", "done": true },
-        { "title": "Spolehlivá jízda rovně a zatáčení", "done": false },
-        { "title": "První splněná mise", "done": true },
-        { "title": "Mise 3 „Flip the Rock“ splněna s novým nástavcem (add-on)", "done": true },
-        { "title": "Mise 11 splněna", "done": true },
-        { "title": "Naplánovaný celý 2:30 pokus", "done": false }
+        { "title": "Base robot built (zaklad)", "done": true },
+        { "title": "Drive straight and turn reliably", "done": false },
+        { "title": "First mission solved", "done": true },
+        { "title": "Mission 3 \"Flip the Rock\" solved with a new attachment (add-on)", "done": true },
+        { "title": "Mission 11 solved", "done": true },
+        { "title": "Full 2:30 run planned", "done": false }
       ]
     },
     {
-      "name": "Inovační projekt",
-      "description": "Identifikovat problém, navrhnout řešení, sdílet ho.",
+      "name": "Innovation Project",
+      "description": "Identify a problem, design a solution, share it.",
       "tasks": [
-        { "title": "Prozkoumat téma sezóny", "done": false },
-        { "title": "Vybrat problém", "done": false },
-        { "title": "Vytvořit prototyp", "done": false },
-        { "title": "Připravit prezentaci", "done": false }
+        { "title": "Research the season theme", "done": false },
+        { "title": "Choose a problem", "done": false },
+        { "title": "Build a prototype", "done": false },
+        { "title": "Prepare the presentation", "done": false }
       ]
     },
     {
-      "name": "Základní hodnoty",
-      "description": "Týmová práce, objevování, zapojení a zábava.",
+      "name": "Core Values",
+      "description": "Teamwork, discovery, inclusion and fun.",
       "tasks": [
-        { "title": "Název a logo týmu", "done": true },
-        { "title": "Zahájen inženýrský deník", "done": true },
-        { "title": "Sdílet s komunitou", "done": false }
+        { "title": "Team name and logo", "done": true },
+        { "title": "Engineering notebook started", "done": true },
+        { "title": "Share with the community", "done": false }
       ]
     }
   ],
   "log": [
-    { "date": "2026-10-29", "text": "Splněna mise 11." },
-    { "date": "2026-10-28", "text": "Dnes jsme na projektu pracovali 3 hodiny." },
-    { "date": "2026-10-28", "text": "Název a logo týmu jsou hotové." },
-    { "date": "2026-10-28", "text": "Splněna mise 3 „Flip the Rock“ s novým nástavcem (add-on) na robotovi." },
-    { "date": "2026-09-24", "text": "Stránka s postupem je spuštěná." },
-    { "date": "2026-05-15", "text": "Postavili a naprogramovali jsme základního robota v SPIKE Prime." }
+    { "date": "2026-10-29", "text": "Solved Mission 11." },
+    { "date": "2026-10-28", "text": "Worked on the project for 3 hours today." },
+    { "date": "2026-10-28", "text": "Team name and logo finalized." },
+    { "date": "2026-10-28", "text": "Solved Mission 3 \"Flip the Rock\" using a new attachment (add-on) on the robot." },
+    { "date": "2026-09-24", "text": "Progress page is live." },
+    { "date": "2026-05-15", "text": "Built and programmed our base robot in SPIKE Prime." }
   ]
 }
