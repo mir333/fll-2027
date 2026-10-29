@@ -1,7 +1,7 @@
 {
   "team": "Náš FLL tým",
   "season": "FIRST LEGO League 2026/2027",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "competitionDate": "2026-12-05",
   "areas": [
     {
@@ -12,6 +12,7 @@
         { "title": "Spolehlivá jízda rovně a zatáčení", "done": false },
         { "title": "První splněná mise", "done": true },
         { "title": "Mise 3 „Flip the Rock“ splněna s novým nástavcem (add-on)", "done": true },
+        { "title": "Mise 11 splněna", "done": true },
         { "title": "Naplánovaný celý 2:30 pokus", "done": false }
       ]
     },
@@ -36,6 +37,7 @@
     }
   ],
   "log": [
+    { "date": "2026-10-29", "text": "Splněna mise 11." },
     { "date": "2026-10-28", "text": "Dnes jsme na projektu pracovali 3 hodiny." },
     { "date": "2026-10-28", "text": "Název a logo týmu jsou hotové." },
     { "date": "2026-10-28", "text": "Splněna mise 3 „Flip the Rock“ s novým nástavcem (add-on) na robotovi." },
