@@ -2,7 +2,7 @@
 const $ = (id) => document.getElementById(id);
 const pct = (done, total) => (total ? Math.round((done / total) * 100) : 0);
 const fmtDate = (iso) =>
-  new Date(iso + "T00:00:00").toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
+  new Date(iso + "T00:00:00").toLocaleDateString("cs-CZ", { day: "numeric", month: "short", year: "numeric" });
 
 function el(tag, props = {}, children = []) {
   const node = Object.assign(document.createElement(tag), props);
@@ -11,7 +11,7 @@ function el(tag, props = {}, children = []) {
 }
 
 function render(data) {
-  document.title = `${data.team} · FLL Progress`;
+  document.title = `${data.team} · FLL Postup`;
   $("team").textContent = data.team;
   $("season").textContent = data.season;
   $("updated").textContent = fmtDate(data.updated);
@@ -41,7 +41,7 @@ function render(data) {
   if (data.competitionDate) {
     const days = Math.ceil((new Date(data.competitionDate + "T00:00:00") - new Date()) / 86400000);
     $("countdown").textContent =
-      days > 0 ? `${days} days until competition (${fmtDate(data.competitionDate)})` : days === 0 ? "Competition day! 🎉" : "";
+      days > 0 ? `${days} dní do soutěže (${fmtDate(data.competitionDate)})` : days === 0 ? "Den soutěže! 🎉" : "";
   }
 
   $("log").replaceChildren(
@@ -56,5 +56,5 @@ fetch("/progress.json", { cache: "no-store" })
   .then(render)
   .catch((err) => {
     console.error(err);
-    $("areas").textContent = "Could not load progress data.";
+    $("areas").textContent = "Data o postupu se nepodařilo načíst.";
   });
