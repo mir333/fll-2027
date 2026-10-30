@@ -74,12 +74,12 @@ section + section { margin-top: 2.5rem; }
 .card li.done { color: var(--muted); }
 .card li.done span { text-decoration: line-through; }
 
-.gallery { display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, 40px); justify-content: start; }
+.gallery { display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, 250px); justify-content: start; }
 .gallery figure { margin: 0; }
 .gallery img {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 250px;
+  height: 250px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 8px;
